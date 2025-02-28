@@ -34,11 +34,19 @@
             <mxPoint x="115" y="270" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="B2PLFbCyvPugWsjakYa--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="0BvJiUBQyxdSGvSWE3r1-42" target="B2PLFbCyvPugWsjakYa--21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0BvJiUBQyxdSGvSWE3r1-42" value="can push event" style="rhombus;whiteSpace=wrap;html=1;" parent="2" vertex="1">
           <mxGeometry x="75.5" y="205" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0BvJiUBQyxdSGvSWE3r1-43" value="store changes in db" style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
           <mxGeometry x="215.5" y="105" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2PLFbCyvPugWsjakYa--21" value="Mark Event On Hold" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="250" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4" value="FAILURE" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="1169" y="1020" width="660" height="625" as="geometry" />
@@ -46,13 +54,10 @@
         <mxCell id="0BvJiUBQyxdSGvSWE3r1-68" value="Failure Table" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4" vertex="1">
           <mxGeometry x="90" y="60" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0BvJiUBQyxdSGvSWE3r1-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="4" source="0BvJiUBQyxdSGvSWE3r1-76" target="0BvJiUBQyxdSGvSWE3r1-77" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="0BvJiUBQyxdSGvSWE3r1-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="4" source="0BvJiUBQyxdSGvSWE3r1-76" target="0BvJiUBQyxdSGvSWE3r1-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BvJiUBQyxdSGvSWE3r1-76" value="ADMIN FC KEY" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4" vertex="1">
+        <mxCell id="0BvJiUBQyxdSGvSWE3r1-76" value="ADMIN API" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4" vertex="1">
           <mxGeometry x="80" y="180" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="0BvJiUBQyxdSGvSWE3r1-69" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="4" source="0BvJiUBQyxdSGvSWE3r1-68" target="0BvJiUBQyxdSGvSWE3r1-76" edge="1">
@@ -60,20 +65,11 @@
             <mxPoint x="150" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0BvJiUBQyxdSGvSWE3r1-77" value="COMMIT : FALSE" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" parent="4" vertex="1">
-          <mxGeometry x="310" y="215" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0BvJiUBQyxdSGvSWE3r1-79" value="FASE" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="4" vertex="1">
-          <mxGeometry x="220" y="219" width="80" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="0BvJiUBQyxdSGvSWE3r1-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="4" source="0BvJiUBQyxdSGvSWE3r1-80" target="0BvJiUBQyxdSGvSWE3r1-85" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0BvJiUBQyxdSGvSWE3r1-80" value="PRODUCE RETRY EVENT" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" parent="4" vertex="1">
           <mxGeometry x="90" y="425" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0BvJiUBQyxdSGvSWE3r1-82" value="TRUE" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="4" vertex="1">
-          <mxGeometry x="171" y="340" width="69" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0BvJiUBQyxdSGvSWE3r1-85" value="TRUE:CAN PUSH EVENT ORG KEY" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" parent="4" vertex="1">
           <mxGeometry x="90" y="530" width="120" height="60" as="geometry" />
@@ -97,17 +93,16 @@
             <mxPoint x="77" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0BvJiUBQyxdSGvSWE3r1-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3" source="0BvJiUBQyxdSGvSWE3r1-55" target="0BvJiUBQyxdSGvSWE3r1-60" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0BvJiUBQyxdSGvSWE3r1-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3" source="0BvJiUBQyxdSGvSWE3r1-55" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="255" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0BvJiUBQyxdSGvSWE3r1-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3" source="0BvJiUBQyxdSGvSWE3r1-55" target="0BvJiUBQyxdSGvSWE3r1-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0BvJiUBQyxdSGvSWE3r1-55" value="Retry Event" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="3" vertex="1">
           <mxGeometry x="22" y="220" width="110" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="0BvJiUBQyxdSGvSWE3r1-60" value="break" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" parent="3" vertex="1">
-          <mxGeometry x="190" y="225" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0BvJiUBQyxdSGvSWE3r1-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3" source="0BvJiUBQyxdSGvSWE3r1-62" target="0BvJiUBQyxdSGvSWE3r1-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -129,6 +124,9 @@
         </mxCell>
         <mxCell id="l0y_RmRIuO6nmSIeRTKA-20" value="false" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="3" vertex="1">
           <mxGeometry x="90" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B2PLFbCyvPugWsjakYa--17" value="Run Event On Hold" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="200" y="225" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0BvJiUBQyxdSGvSWE3r1-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#ec0909;" parent="1" source="10" target="13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
